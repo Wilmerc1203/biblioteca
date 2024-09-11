@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estyle.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Blog Enfocado En Una Biblioteca</h1>
+        </header><br>
+        <div class="flex-container ">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="button"><button>Inicio</button></a></li>
+                <li><a href="libros.html"class="button"><button>Libros</button></a></li>
+                <li><a href="contacto.html" class="button"><button>Contacto</button></a></li>
+                <li><a href="acercade.html" class="button"><button>Acercade</button></a></li>
+            </ul>
+        </nav>
+        </div></div>
+    <section><br> <br>
+        <header>
+            <div class="container-contac"><br>
+            <h1>CONTACTANOS</h1>
+            <form> <br>  <br><br><br>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" minlength="3" maxlength="50" required placeholder="Digite su Nombre" ><br><br>
+        
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" required placeholder="digite su correo" ><br> <br>
+        
+                <label for="telefono">Teléfono :</label>
+                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10,15}" required placeholder="digite su numero"  ><br> <br>
+        
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" placeholder="digite su direccion"  ><br>
+        
+                <label for="pais">País:</label><br>
+                <select id="pais" name="pais" required>
+                    <option value="">Seleccione su país</option>
+                    <!-- Aquí puedes agregar más opciones de países -->
+                    <option value="mexico">México</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="chile">Chile</option>
+                </select>
+                <label for="motivo">motivo</label>
+                <select id="motivo" name="pais" required>
+                    <option value="">Selecione su motivo</option>
+                    <!-- Aquí puedes agregar más opciones de países -->
+                    <option value="mexico">Queja</option>
+                    <option value="colombia">Sugerencia</option>
+                    <option value="argentina">cometario</option>
+                    <option value="chile">saber mas</option>
+                </select><br><br><br>
+        
+                <label for="documentos">Subir Documentos de Identificación:</label><br><br> <br>
+                <input type="file" id="documentos" name="documentos" accept=".pdf,.jpg,.jpeg,.png" required><br><br>
+        
+                <input type="checkbox" id="condiciones" name="condiciones" required>
+                <label for="condiciones">Acepto las condiciones de servicio</label><br><br>
+        
+                <button type="submit">Enviar</button>
+            </form>
+        </div> <br>
+        <section>
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-section">
+                        <h3>De interés</h3>
+                        <ul>
+                            <ul>
+                                <li><a href="#">Sistema Soporte - PQRS</a></li>
+                                <li><a href="libros.html">libros</a></li>
+                                <li><a href="index.html">Nosotros</a></li>
+                                <li><a href="contacto.html">Contacto</a></li>
+                                <li><a href="prestamos.html">Realiza tu prestamo</a></li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Portales</h3>
+                        <ul>
+                            <li><a href="#">Portal Educación Virtual</a></li>
+                            <li><a href="#">Portal Educación Presencial-OnLine (Clases en Vivo)</a></li>
+                            <li><a href="#">Portal SunChemical</a></li>
+                        </ul>
+                    </div>
+            
+                    <div class="footer-section">
+                        <h3>Contactos</h3>
+                        <ul>
+                            <li>Teléfono: <a href="tel:">4979132</a></li>
+                            <li>Celular: <a href="tel:">+57 3142290374</a></li>
+                            <li>Email: <a href="wilmercastano65@gmail.com">wilmercastano65@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </section>
+</body>
+</html>
